@@ -1,0 +1,614 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.navbar {
+    position: relative;
+    /* width: auto; */
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.nav {
+    width: auto;
+}
+
+.nav ul {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.nav ul li h1 {
+    margin-left: 310px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
+    color: #1E253A
+}
+
+.nav ul li a {
+    /* margin-left: 10px; */
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2D4EF5;
+    text-decoration: none;
+}
+
+.nav ul li p img {
+    position: absolute;
+    left: 1320px;
+    font-size: 20px;
+    top: 25px;
+    max-width: 17px;
+    min-width: 8px;
+    min-height: 19px;
+}
+
+.nav ul li h6 {
+    position: absolute;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    width: 97px;
+    min-width: 47px;
+    min-height: 19px;
+    left: 1360px;
+    top: 25px;
+}
+
+.nav ul li img {
+    position: absolute;
+    left: 1470px;
+    border-radius: 50%;
+    width: 40px;
+    min-width: 20px;
+    min-height: 40px;
+}
+
+
+/* sidebars */
+
+.sidebar {
+    position: absolute;
+    top: 0px;
+    width: 224px;
+    /* min-width: 112px; */
+    /* min-height: 880px; */
+    background: #0C2556;
+}
+
+.sidebar h1 {
+    position: relative;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #516DE4;
+    margin-bottom: 47px;
+    text-align: center;
+    padding: 19px 10px;
+    right: 28px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul h6 {
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sidebar ul li {
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.sidebar ul li a {
+    /* position: relative; */
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 93px;
+    min-width: 50px;
+    padding: 0px;
+    text-decoration: none;
+    /* top: 40px; */
+}
+
+li:last-child {
+    color: #FFA866;
+}
+
+#dash {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#coup {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#reviews {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#admins {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#code {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#set {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#trash {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+#logout {
+    position: relative;
+    /* padding: 0px 0px 10px 0px; */
+    width: 20px;
+    min-width: 10px;
+    min-height: 20px;
+    top: -4px;
+}
+
+
+/* subhead */
+
+.subhead {
+    background-color: rgb(241, 242, 243);
+}
+
+.subheadcont {
+    position: relative;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(249, 250, 251);
+    gap: 10px;
+    margin-bottom: 1px;
+}
+
+.subheadcont h4 {
+    margin-left: 245px;
+    top: 300px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.subhead h1 {
+    width: 100%;
+    /* min-width: 50%; */
+    border: 1px solid rgb(240, 241, 242);
+}
+
+#topBroader {
+    position: relative;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04); */
+    /* border: 1px solid rgba(0, 0, 0, 0.04); */
+}
+
+#topBroader h1 {
+    width: 60px;
+    /* min-width: 30px; */
+    border: 2px solid #2D4EF5;
+    margin: 0px 0px 0px 255px;
+    height: 0px;
+}
+
+#topBroader h2 {
+    width: 80vw;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    margin: 0px 0px 0px 255px;
+}
+
+
+/* this is where it started */
+
+.couponacctinfo {
+    /* position: relative */
+    width: auto;
+    width: fit-content;
+    height: 100vh;
+    /* padding: 55px 22px; */
+    background-color: rgb(249, 250, 251);
+}
+
+.couponinfo {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4, 314px);
+    grid-template-rows: 70px 70px 70px;
+    /* width: auto; */
+    /* height: auto; */
+    /* margin-left: 230px; */
+    gap: 50px;
+    /* background-color: rgb(249, 250, 251); */
+    padding: 50px 20px;
+    /* margin-top: 50px; */
+    border: 1px, 0px, 0px, 0px, solid black;
+    left: 230px;
+}
+
+.cop1 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop2 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop3 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop4 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop5 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop6 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop7 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop8 label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop9 label {
+    position: relative;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop10 label {
+    width: 83px;
+    height: 21px;
+    left: 255px;
+    top: 638px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop11 label {
+    width: 439px;
+    height: 224px;
+    left: 775px;
+    top: 673px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.cop1 input[type=text] {
+    border: 1px solid #2D4EF5;
+    border-radius: 5px;
+    width: 290px;
+    min-width: 145px;
+    height: 48px;
+    left: 255px;
+    top: 273px;
+}
+
+.cop1 input:hover {
+    color: #000;
+}
+
+.cop2 input[type=text] {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    width: 230px;
+    /* min-width: 110px; */
+    height: 48px;
+    left: 67px;
+    top: 20px;
+}
+
+.cop3 input[type=text] {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    width: 230px;
+    /* min-width: 110px; */
+    min-height: 48px;
+}
+
+.cop4 input[type=number] {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    width: 88px;
+    /* min-width: 44px; */
+    /* min-height: 48px; */
+    left: 1161px;
+    top: 273px;
+}
+
+.cop5 input[type=text] {
+    width: 290px;
+    /* min-width: 140px; */
+    height: 48px;
+    left: 255px;
+    bottom: 399px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+}
+
+.cop6 input[type=date] {
+    max-width: 230px;
+    /* min-width: 110px; */
+    height: 48px;
+    left: 637px;
+    top: 399px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px
+}
+
+.cop7 input[type=date] {
+    width: 230px;
+    /* min-width: 110px; */
+    height: 48px;
+    left: 899px;
+    top: 399px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+}
+
+.cop8 input[type=password] {
+    height: 48px;
+    left: 1161px;
+    top: 399px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    /* min-width: 73px; */
+    width: 150px;
+}
+
+.cop9 input[type=url] {
+    display: block;
+    /* min-width: 620px; */
+    height: 48px;
+    width: 1240px;
+    left: 255px;
+    top: 541px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+}
+
+.cop10 input[type=text] {
+    box-sizing: border-box;
+    width: 439px;
+    /* min-width: 217px; */
+    height: 224px;
+    left: 255px;
+    top: 73px;
+    right: 200px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.cop11 input[type=text] {
+    box-sizing: border-box;
+    width: 439px;
+    /* width: 217px; */
+    height: 224px;
+    left: 775px;
+    top: 673px;
+    background: #FFFFFF;
+    border: 1px solid rgba(45, 78, 245, 0.08);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.cop1 input::placeholder {
+    color: #2D4EF5;
+    font-weight: bolder;
+}
+
+.cop5 input::placeholder {
+    color: #FFA866;
+}
+
+.second {
+    position: absolute;
+    top: 390px;
+    /* background-color: red; */
+    /* width: auto; */
+    /* height: auto; */
+    padding: 20px;
+    /* border: 2px solid black; */
+    color: #ffffff;
+}
+
+.secondControl {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 240px 80px;
+    gap: 30px;
+}
+
+.third {
+    position: absolute;
+    top: 700px;
+    left: 630px;
+}
+
+.thirdControl {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+}
+
+.last-btn {
+    width: 140px;
+    height: 48px;
+    background: #2D4EF5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(244, 240, 240);
+    /* font-size: 20px; */
+    /* margin-top: 30px; */
+    cursor: pointer;
+}
+
+.last-btn-p {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.last2-btn p {
+    width: 140px;
+    height: 48px;
+    /* top: 25px; */
+    background: #EBEBEB;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.last2-btn p {
+    align-items: center;
+    padding: 10px;
+    font-size: 18px
+}

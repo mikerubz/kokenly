@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coupon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landscape.css" media="all and (orientation: landscape)">
+    <link rel="stylesheet" href="portrait.css" media="all and (orientation: portrait)">
+    <title>coupon</title>
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-wrap: break-word;
+        }
+    </style>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <li>
+                    <h1>Coupons</h1>
+                </li>
+                <li> <a href="#">Create Coupons</a> </li>
+                <li>
+                    <p><img src="images/bell.png" alt="jdn"></p>
+                </li>
+                <li>
+                    <h6>Emmanuel Abu</h6>
+                </li>
+                <li><img src="images/face.png" alt="face"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="subhead">
+        <div class="subheadcont">
+            <h4>Coupon Properties</h4>
+            <span style="color:  #838690;
+            margin-left: 70px;
+            font-family: 'Sofia Pro';"> Images & Videos </span>
+        </div>
+    </div>
+    <div style="height:0px ;" id="topBroader">
+        <h1> </h1>
+        <h2></h2>
+    </div>
+    <label>
+        <div class="sidebar">
+            <h1>Tokenfy</h1>
+            <ul>
+                <li> <a href=""><img style="height:20px ;width: 20px;" src="images/dshboard.png" alt="yfy"><span id="dash"> Dashboard <img style="height:9px;width: 12px;" src="images/Stroke.png" alt="stroke"> </span> </a> </li>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/coupon.png" alt="coupon"> <span id="coup"> Coupons</a> </span> </li>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/Chat.png" alt="chat"><span id="reviews"> Reviews</a></span> </li>
+                <li> <a href=""><img style="height:20px ;width: 20px;" src="images/user.png" alt="user"> <span id="admins"> Admins<img style="height:9px;width: 12px; justify-self: left;" src="images/Stroke.png" alt="stroke"> </span></a> </span> </li>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/Wallet.png" alt="coupon"><span id="code">  QR Coupons</a></span> </li>
+                <h6></h6>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/settings.png" alt="coupon"><span id="set">  Settings</a></span> </li>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/trash.png" alt="jd"> <span id="trash"> Trash</a> </span> </li>
+                <h1></h1>
+                <h1></h1>
+                <li> <a href=""><img style="height:20px ;width: 20px;"src="images/logout.png" alt="coupon"> <span id="logout"></span>  Log Out </a> </li>   
+            </ul>
+        </div>
+        
+    </label>
+
+    <!-- listcoupon -->
+    <div class="couponacctinfo c    ">
+        <div class="couponinfo">
+
+            <div class="cop1"><label for="fname">Merchant <span> <img style="width:12px ; height:12px ;" src="images/certification.png" alt="certification"></span> </label>
+                <br>
+                <input type="text" id="name" placeholder="Jumia">
+            </div>
+            <div class="cop2"><label for="type">Coupon  Type<span style="color:#F28F8F ;"> *</span></label><br>
+                <input type="text" id="Type">
+            </div>
+            <div class="cop3"> <label for="Percentage">Percentage/Amount <span style="color:#F28F8F ;"> *</span></label><br>
+                <input type="text" id="Percentage">
+            </div>
+            <div class="cop4"> <label for="Limits">Limits <span style="color:#F28F8F ;"> *</span></label><br>
+                <input type="number" id="number">
+            </div>
+            <div class="cop5"><label for="Category">Category </label> <span><img style="width:16px ; height:17px ;" src="images/warn.png" alt="warn"></span><br>
+                <input type="text" id="Category" placeholder="Bath">
+            </div>
+            <div class="cop6"><label for="date">Start Date <span style="color:#F28F8F ;"> *</span></label><br>
+                <input type="date" id="date">
+            </div>
+            <div class="cop7"><label for="date">End Date <span style="color:#F28F8F ;"> *</span></label><br>
+                <input type="date" id="date">
+            </div>
+            <div class="cop8"><label for="password">Coupon Code<span style="color:#F28F8F ;"> *</span> </label><br>
+                <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+
+            </div>
+            <div class="cop9"><label for="Weblink">Coupon Weblink </label><br>
+                <input type="url" id="Weblink">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="second">
+                <form class="secondControl">
+                    <div class="cop10"><label for="Description"> Description <span style="color:#F28F8F ;"> *</span></label> <br>
+                        <input type="text" id="Description">
+                    </div>
+                    <div class="cop11"><label for="restrictions">restrictions<span style="color:#F28F8F ;"> *</span> </label><br>
+                        <input type="text" id="restrictions">
+                    </div>
+                </form>
+            </div>
+            <div class="third">
+                <div class="thirdControl">
+                    <div class="last-btn">
+                        <p>perview</p>
+                    </div>
+                    <div class="last2-btn">
+                        <p>publish</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

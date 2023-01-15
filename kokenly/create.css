@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.adminsign div img {
+    height: 900px;
+    width: 100%;
+}
+
+.adminsign {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 900px;
+    /* height: 100%; */
+    justify-content: space-between;
+    background-color: #E5E5E5;
+}
+
+.extra {
+    position: relative;
+    margin-left: 160px;
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    padding-top: 200px;
+}
+
+.createsection {
+    /* padding-left: 50px; */
+    background-color: #f9fafb;
+}
+
+.createacct {
+    /* background-color: #f9fafb; */
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    color: #1E253A;
+}
+
+.adminsign h1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    color: #2D4EF5;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.createacct h2 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #1E253A;
+}
+
+.createacct h3 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #838690;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+.inputinfo {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+.col input {
+    width: 50%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    text-decoration: #838690;
+    width: 200px;
+}
+
+.input[type=password] {
+    padding: 12px 20px;
+    /* margin: 2px 0; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    text-decoration: #838690;
+    width: 521px;
+    height: 52px;
+    left: 119px;
+    top: 620px;
+    box-sizing: border-box;
+}
+
+.signinkey {
+    padding: 0px;
+}
+
+.signinkey h5 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2D4EF5;
+    margin-left: 300px;
+}
+
+.signinkey button {
+    background: #2D4EF5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 420px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.signinkey p {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #838690;
+    padding-bottom: 100px;
+}
+
+.signinkey a {
+    font-weight: bold;
+    margin-top: 500px;
+    color: #2D4EF5;
+}
